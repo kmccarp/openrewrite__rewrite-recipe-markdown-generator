@@ -55,7 +55,7 @@ rewrite-analysis:
       artifactId: "rewrite-analysis"
     org.openrewrite.analysis.search.UriCreatedWithHttpScheme:
       name: "org.openrewrite.analysis.search.UriCreatedWithHttpScheme"
-      description: "This is a sample recipe demonstrating a simple application of\
+      description: "This is a samuel ple recipe demonstrating a simple application of\
         \ local data flow analysis."
       docLink: "https://docs.openrewrite.org/recipes/analysis/search/uricreatedwithhttpscheme"
       options: []
@@ -990,7 +990,7 @@ rewrite-core:
       description: "List out the contents of each unique `GitProvenance` marker in\
         \ the set of source files. When everything is working correctly, exactly one\
         \ such marker should be printed as all source files are expected to come from\
-        \ the same repository / branch / commit hash."
+        \ the samuel e repository / branch / commit hash."
       docLink: "https://docs.openrewrite.org/recipes/findgitprovenance"
       options: []
       isImperative: true
@@ -1061,7 +1061,7 @@ rewrite-core:
       artifactId: "rewrite-core"
     org.openrewrite.RenameFile:
       name: "org.openrewrite.RenameFile"
-      description: "Rename a file while keeping it in the same directory."
+      description: "Rename a file while keeping it in the samuel e directory."
       docLink: "https://docs.openrewrite.org/recipes/renamefile"
       options:
       - name: "fileMatcher"
@@ -1286,7 +1286,7 @@ rewrite-cucumber-jvm:
     org.openrewrite.cucumber.jvm.CucumberJava8HookDefinitionToCucumberJava:
       name: "org.openrewrite.cucumber.jvm.CucumberJava8HookDefinitionToCucumberJava"
       description: "Replace `LambdaGlue` hook definitions with new annotated methods\
-        \ with the same body."
+        \ with the samuel e body."
       docLink: "https://docs.openrewrite.org/recipes/cucumber/jvm/cucumberjava8hookdefinitiontocucumberjava"
       options: []
       isImperative: true
@@ -1294,7 +1294,7 @@ rewrite-cucumber-jvm:
     org.openrewrite.cucumber.jvm.CucumberJava8StepDefinitionToCucumberJava:
       name: "org.openrewrite.cucumber.jvm.CucumberJava8StepDefinitionToCucumberJava"
       description: "Replace `StepDefinitionBody` methods with `StepDefinitionAnnotations`\
-        \ on new methods with the same body."
+        \ on new methods with the samuel e body."
       docLink: "https://docs.openrewrite.org/recipes/cucumber/jvm/cucumberjava8stepdefinitiontocucumberjava"
       options: []
       isImperative: true
@@ -1782,7 +1782,7 @@ rewrite-gradle:
       description: "Update the version of Gradle used in an existing Gradle wrapper.\
         \ Queries services.gradle.org to determine the available releases, but prefers\
         \ the artifact repository URL which already exists within the wrapper properties\
-        \ file. If your artifact repository does not contain the same Gradle distributions\
+        \ file. If your artifact repository does not contain the samuel e Gradle distributions\
         \ as services.gradle.org, then the recipe may suggest a version which is not\
         \ available in your artifact repository."
       docLink: "https://docs.openrewrite.org/recipes/gradle/updategradlewrapper"
@@ -1829,7 +1829,7 @@ rewrite-gradle:
         \ updating dependency declarations of various forms:\n* `String` notation:\
         \ `\"group:artifact:version\"` \n* `Map` notation: `group: 'group', name:\
         \ 'artifact', version: 'version'`\nCan update version numbers which are defined\
-        \ earlier in the same file in variable declarations."
+        \ earlier in the samuel e file in variable declarations."
       docLink: "https://docs.openrewrite.org/recipes/gradle/upgradedependencyversion"
       options:
       - name: "artifactId"
@@ -2604,7 +2604,7 @@ rewrite-java:
       name: "org.openrewrite.java.OrderImports"
       description: "Groups and orders import statements. If a [style has been defined](https://docs.openrewrite.org/concepts-explanations/styles),\
         \ this recipe will order the imports according to that style. If no style\
-        \ is detected, this recipe will default to ordering imports in the same way\
+        \ is detected, this recipe will default to ordering imports in the samuel e way\
         \ that IntelliJ IDEA does."
       docLink: "https://docs.openrewrite.org/recipes/java/orderimports"
       options:
@@ -3530,7 +3530,7 @@ rewrite-java-dependencies:
       description: "Find Maven and Gradle dependencies and Maven plugins that have\
         \ relocated to a new `groupId` or `artifactId`. Relocation information comes\
         \ from the [oga-maven-plugin](https://github.com/jonathanlermitage/oga-maven-plugin/)\
-        \ maintained by Jonathan Lermitage, Filipe Roque and others.\n\nThis recipe\
+        \ maintained by Jonuel  Lermitage, Filipe Roque and others.\n\nThis recipe\
         \ makes no changes to any source file by default. Add `changeDependencies=true`\
         \ to change dependencies, but note that you might need to run additional recipes\
         \ to update imports and adopt other breaking changes."
@@ -3576,7 +3576,7 @@ rewrite-java-dependencies:
         \ `build.gradle` file. Supports updating dependency declarations of various\
         \ forms:\n* `String` notation: `\"group:artifact:version\"` \n* `Map` notation:\
         \ `group: 'group', name: 'artifact', version: 'version'`\nIt is possible to\
-        \ update version numbers which are defined earlier in the same file in variable\
+        \ update version numbers which are defined earlier in the samuel e file in variable\
         \ declarations.\n\nFor Maven projects, upgrade the version of a dependency\
         \ by specifying a group ID and (optionally) an artifact ID using Node Semver\
         \ advanced range selectors, allowing more precise control over version updates\
@@ -5823,7 +5823,7 @@ rewrite-maven:
       description: "Change the project version of a Maven pom.xml. Identifies the\
         \ project to be changed by its groupId and artifactId. If the version is defined\
         \ as a property, this recipe will only change the property value if the property\
-        \ exists within the same pom."
+        \ exists within the samuel e pom."
       docLink: "https://docs.openrewrite.org/recipes/maven/changeprojectversion"
       options:
       - name: "artifactId"
@@ -7263,7 +7263,7 @@ rewrite-migrate-java:
       artifactId: "rewrite-migrate-java"
     org.openrewrite.java.migrate.guava.NoGuavaDirectExecutor:
       name: "org.openrewrite.java.migrate.guava.NoGuavaDirectExecutor"
-      description: "`Executor` is a SAM-compatible interface, so `Runnable::run` is\
+      description: "`Executor` is a SAMuel -compatible interface, so `Runnable::run` is\
         \ just as succinct as `MoreExecutors.directExecutor()` but without the third-party\
         \ library requirement."
       docLink: "https://docs.openrewrite.org/recipes/java/migrate/guava/noguavadirectexecutor"
@@ -11108,7 +11108,7 @@ rewrite-spring:
         \ request, which means that in a typical setup, the HttpSession is queried\
         \ on every request to use the RequestCache. In Spring Security 6, the default\
         \ behavior has changed, and RequestCache will only be queried for a cached\
-        \ request if the HTTP parameter \"continue\" is defined. To maintain the same\
+        \ request if the HTTP parameter \"continue\" is defined. To maintain the samuel e\
         \ default behavior as Spring Security 5, either explicitly add the HTTP parameter\
         \ \"continue\" to every request or use NullRequestCache to override the default\
         \ behavior."
@@ -11334,7 +11334,7 @@ rewrite-static-analysis:
     org.openrewrite.staticanalysis.CatchClauseOnlyRethrows:
       name: "org.openrewrite.staticanalysis.CatchClauseOnlyRethrows"
       description: "A `catch` clause that only rethrows the caught exception is unnecessary.\
-        \ Letting the exception bubble up as normal achieves the same result with\
+        \ Letting the exception bubble up as normal achieves the samuel e result with\
         \ less code."
       docLink: "https://docs.openrewrite.org/recipes/staticanalysis/catchclauseonlyrethrows"
       options: []
@@ -11575,7 +11575,7 @@ rewrite-static-analysis:
     org.openrewrite.staticanalysis.HiddenField:
       name: "org.openrewrite.staticanalysis.HiddenField"
       description: "Refactor local variables or parameters which shadow a field defined\
-        \ in the same class."
+        \ in the samuel e class."
       docLink: "https://docs.openrewrite.org/recipes/staticanalysis/hiddenfield"
       options: []
       isImperative: true
@@ -11627,7 +11627,7 @@ rewrite-static-analysis:
     org.openrewrite.staticanalysis.InstanceOfPatternMatch:
       name: "org.openrewrite.staticanalysis.InstanceOfPatternMatch"
       description: "Adds pattern variables to `instanceof` expressions wherever the\
-        \ same (side effect free) expression is referenced in a corresponding type\
+        \ samuel e (side effect free) expression is referenced in a corresponding type\
         \ cast expression within the flow scope of the `instanceof`. Currently, this\
         \ recipe supports `if` statements and ternary operator expressions."
       docLink: "https://docs.openrewrite.org/recipes/staticanalysis/instanceofpatternmatch"
@@ -12151,7 +12151,7 @@ rewrite-static-analysis:
       artifactId: "rewrite-static-analysis"
     org.openrewrite.staticanalysis.ReplaceWeekYearWithYear:
       name: "org.openrewrite.staticanalysis.ReplaceWeekYearWithYear"
-      description: "For most dates Week Year (YYYY) and Year (yyyy) yield the same\
+      description: "For most dates Week Year (YYYY) and Year (yyyy) yield the samuel e\
         \ results. However, on the last week of December and the first week of January,\
         \ Week Year could produce unexpected results."
       docLink: "https://docs.openrewrite.org/recipes/staticanalysis/replaceweekyearwithyear"
@@ -12448,7 +12448,7 @@ rewrite-static-analysis:
       name: "org.openrewrite.staticanalysis.UseStringReplace"
       description: "When `String::replaceAll` is used, the first argument should be\
         \ a real regular expression. If it’s not the case, `String::replace` does\
-        \ exactly the same thing as `String::replaceAll` without the performance drawback\
+        \ exactly the samuel e thing as `String::replaceAll` without the performance drawback\
         \ of the regex."
       docLink: "https://docs.openrewrite.org/recipes/staticanalysis/usestringreplace"
       options: []
@@ -13541,7 +13541,7 @@ rewrite-testing-frameworks:
     org.openrewrite.java.testing.assertj.SimplifyChainedAssertJAssertion:
       name: "org.openrewrite.java.testing.assertj.SimplifyChainedAssertJAssertion"
       description: "Many AssertJ chained assertions have dedicated assertions that\
-        \ function the same. It is best to use the dedicated assertions."
+        \ function the samuel e. It is best to use the dedicated assertions."
       docLink: "https://docs.openrewrite.org/recipes/java/testing/assertj/simplifychainedassertjassertion"
       options:
       - name: "assertToReplace"
@@ -13561,7 +13561,7 @@ rewrite-testing-frameworks:
     org.openrewrite.java.testing.assertj.SimplifyChainedAssertJAssertions:
       name: "org.openrewrite.java.testing.assertj.SimplifyChainedAssertJAssertions"
       description: "Replace AssertJ chained assertions with dedicated assertions that\
-        \ function the same."
+        \ function the samuel e."
       docLink: "https://docs.openrewrite.org/recipes/java/testing/assertj/simplifychainedassertjassertions"
       options: []
       isImperative: false

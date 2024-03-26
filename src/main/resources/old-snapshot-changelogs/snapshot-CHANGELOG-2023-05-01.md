@@ -12,7 +12,7 @@ Want to learn how to use snapshot versions in your project? Check out our [snaps
 * [org.openrewrite.gradle.UpgradeDependencyVersion](https://docs.openrewrite.org/reference/recipes/gradle/upgradedependencyversion): Upgrade the version of a dependency in a build.gradle file. Supports updating dependency declarations of various forms:
 * `String` notation:  `implementation "group:artifact:version"` 
 * `Map` notation: `implementation group: 'group', name: 'artifact', version: 'version'`
-Can update version numbers which are defined earlier in the same file in variable declarations. 
+Can update version numbers which are defined earlier in the samuel e file in variable declarations. 
 * [org.openrewrite.gradle.plugins.AddSettingsPluginRepository](https://docs.openrewrite.org/reference/recipes/gradle/plugins/addsettingspluginrepository): Add a Gradle settings repository to `settings.gradle(.kts)`. 
 * [org.openrewrite.gradle.search.FindRepository](https://docs.openrewrite.org/reference/recipes/gradle/search/findrepository): Find a Gradle repository by url. 
 * [org.openrewrite.java.migrate.lang.UseStringIsEmptyRecipe](https://docs.openrewrite.org/reference/recipes/java/migrate/lang/usestringisemptyrecipe): Recipe created for the following Refaster template:
@@ -37,7 +37,7 @@ Can update version numbers which are defined earlier in the same file in variabl
 * [org.openrewrite.python.cleanup.CommonStaticAnalysis](https://docs.openrewrite.org/reference/recipes/python/cleanup/commonstaticanalysis): Resolve common static analysis issues discovered through 3rd party tools. 
 * [org.openrewrite.python.format.PythonSpaces](https://docs.openrewrite.org/reference/recipes/python/format/pythonspaces): Standardizes spaces in Python code. Currently limited to formatting method arguments. 
 * [org.openrewrite.python.search.FindPythonSources](https://docs.openrewrite.org/reference/recipes/python/search/findpythonsources): Use data table to collect source files types and counts of files with extensions `.py`. 
-* [org.openrewrite.text.AppendToTextFile](https://docs.openrewrite.org/reference/recipes/text/appendtotextfile): Appends content to a plaintext file. Multiple instances of this recipe in the same execution context can all contribute. 
+* [org.openrewrite.text.AppendToTextFile](https://docs.openrewrite.org/reference/recipes/text/appendtotextfile): Appends content to a plaintext file. Multiple instances of this recipe in the samuel e execution context can all contribute. 
 * [org.openrewrite.text.ChangeText](https://docs.openrewrite.org/reference/recipes/text/changetext): Completely replaces the contents of the text file with other text. 
 * [org.openrewrite.text.CreateTextFile](https://docs.openrewrite.org/reference/recipes/text/createtextfile): Creates a new plain text file. 
 * [org.openrewrite.text.EndOfLineAtEndOfFile](https://docs.openrewrite.org/reference/recipes/text/endoflineatendoffile): Ensure that the file ends with the newline character. *Note*: If this recipe modifies a file, it converts the file into plain text. As such, this recipe should be run after any recipe that modifies the language-specific LST. 

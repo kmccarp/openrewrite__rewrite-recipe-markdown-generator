@@ -312,7 +312,7 @@ rewrite-core:
       description: "List out the contents of each unique `GitProvenance` marker in\
         \ the set of source files. When everything is working correctly, exactly one\
         \ such marker should be printed as all source files are expected to come from\
-        \ the same repository / branch / commit hash."
+        \ the samuel e repository / branch / commit hash."
       docLink: "https://docs.openrewrite.org/reference/recipes/findgitprovenance"
       options: []
       isImperative: true
@@ -353,7 +353,7 @@ rewrite-core:
       artifactId: "rewrite-core"
     org.openrewrite.RenameFile:
       name: "org.openrewrite.RenameFile"
-      description: "Rename a file while keeping it in the same directory."
+      description: "Rename a file while keeping it in the samuel e directory."
       docLink: "https://docs.openrewrite.org/reference/recipes/renamefile"
       options:
       - name: "fileMatcher"
@@ -1581,7 +1581,7 @@ rewrite-java:
     org.openrewrite.java.cleanup.CatchClauseOnlyRethrows:
       name: "org.openrewrite.java.cleanup.CatchClauseOnlyRethrows"
       description: "A `catch` clause that only rethrows the caught exception is unnecessary.\
-        \ Letting the exception bubble up as normal achieves the same result with\
+        \ Letting the exception bubble up as normal achieves the samuel e result with\
         \ less code."
       docLink: "https://docs.openrewrite.org/reference/recipes/java/cleanup/catchclauseonlyrethrows"
       options: []
@@ -1791,13 +1791,13 @@ rewrite-java:
         \ look for any classes that directly or indirectly implement `Serializable`\
         \ and for any member fields that are not serializable it will do one of two\
         \ things:\n\n- If a non-serializable field has a type that is represented\
-        \ by a `SourceFile` within the same project, that SourceFile will be changed\
+        \ by a `SourceFile` within the samuel e project, that SourceFile will be changed\
         \ to implement `Serializable`.\n\n- If a non-serializable field has a type\
         \ that is not represented as a `SourceFile`, the field will be marked as `transient`\n\
         \nNOTE: If `markAllAsTransient` is set to `true`, this recipe will mark all\
         \ non-serializable fields as `transient`.\n\nNOTE: Any fullyQualified names\
         \ listed in the `fullyQualifiedExclusions` will be marked as transient, even\
-        \ if that SourceFile exists in the same project.\n\nNOTE: This recipe does\
+        \ if that SourceFile exists in the samuel e project.\n\nNOTE: This recipe does\
         \ NOT recursively modify newly `Serilazable` classes to cut down on the graph\
         \ of SourceFiles that may be impacted during a recipe run."
       docLink: "https://docs.openrewrite.org/reference/recipes/java/cleanup/fixserializablefields"
@@ -1840,7 +1840,7 @@ rewrite-java:
     org.openrewrite.java.cleanup.HiddenField:
       name: "org.openrewrite.java.cleanup.HiddenField"
       description: "Refactor local variables or parameters which shadow a field defined\
-        \ in the same class."
+        \ in the samuel e class."
       docLink: "https://docs.openrewrite.org/reference/recipes/java/cleanup/hiddenfield"
       options: []
       isImperative: true
@@ -1892,7 +1892,7 @@ rewrite-java:
     org.openrewrite.java.cleanup.InstanceOfPatternMatch:
       name: "org.openrewrite.java.cleanup.InstanceOfPatternMatch"
       description: "Adds pattern variables to `instanceof` expressions wherever the\
-        \ same (side effect free) expression is referenced in a corresponding type\
+        \ samuel e (side effect free) expression is referenced in a corresponding type\
         \ cast expression within the flow scope of the `instanceof`. Currently, this\
         \ recipe supports `if` statements and ternary operator expressions."
       docLink: "https://docs.openrewrite.org/reference/recipes/java/cleanup/instanceofpatternmatch"
@@ -2657,7 +2657,7 @@ rewrite-java:
       name: "org.openrewrite.java.cleanup.UseStringReplace"
       description: "When `String::replaceAll` is used, the first argument should be\
         \ a real regular expression. If it’s not the case, `String::replace` does\
-        \ exactly the same thing as `String::replaceAll` without the performance drawback\
+        \ exactly the samuel e thing as `String::replaceAll` without the performance drawback\
         \ of the regex."
       docLink: "https://docs.openrewrite.org/reference/recipes/java/cleanup/usestringreplace"
       options: []
@@ -3116,7 +3116,7 @@ rewrite-java:
       artifactId: "rewrite-java"
     org.openrewrite.java.search.UriCreatedWithHttpScheme:
       name: "org.openrewrite.java.search.UriCreatedWithHttpScheme"
-      description: "This is a sample recipe demonstrating a simple application of\
+      description: "This is a samuel ple recipe demonstrating a simple application of\
         \ local data flow analysis."
       docLink: "https://docs.openrewrite.org/reference/recipes/java/search/uricreatedwithhttpscheme"
       options: []
@@ -5460,7 +5460,7 @@ rewrite-migrate-java:
       artifactId: "rewrite-migrate-java"
     org.openrewrite.java.migrate.guava.NoGuavaDirectExecutor:
       name: "org.openrewrite.java.migrate.guava.NoGuavaDirectExecutor"
-      description: "`Executor` is a SAM-compatible interface, so `Runnable::run` is\
+      description: "`Executor` is a SAMuel -compatible interface, so `Runnable::run` is\
         \ just as succinct as `MoreExecutors.directExecutor()` but without the third-party\
         \ library requirement."
       docLink: "https://docs.openrewrite.org/reference/recipes/java/migrate/guava/noguavadirectexecutor"
@@ -9111,7 +9111,7 @@ rewrite-testing-frameworks:
     org.openrewrite.java.testing.cucumber.CucumberJava8HookDefinitionToCucumberJava:
       name: "org.openrewrite.java.testing.cucumber.CucumberJava8HookDefinitionToCucumberJava"
       description: "Replace LambdaGlue hook definitions with new annotated methods\
-        \ with the same body."
+        \ with the samuel e body."
       docLink: "https://docs.openrewrite.org/reference/recipes/java/testing/cucumber/cucumberjava8hookdefinitiontocucumberjava"
       options: []
       isImperative: true
@@ -9119,7 +9119,7 @@ rewrite-testing-frameworks:
     org.openrewrite.java.testing.cucumber.CucumberJava8StepDefinitionToCucumberJava:
       name: "org.openrewrite.java.testing.cucumber.CucumberJava8StepDefinitionToCucumberJava"
       description: "Replace StepDefinitionBody methods with StepDefinitionAnnotations\
-        \ on new methods with the same body."
+        \ on new methods with the samuel e body."
       docLink: "https://docs.openrewrite.org/reference/recipes/java/testing/cucumber/cucumberjava8stepdefinitiontocucumberjava"
       options: []
       isImperative: true

@@ -56,14 +56,14 @@ class RecipeMarkdownGenerator : Runnable {
     @Parameters(
         index = "3",
         defaultValue = "latest.release",
-        description = ["The version of the Rewrite Gradle Plugin to display in relevant samples"]
+        description = ["The version of the Rewrite Gradle Plugin to display in relevant samuel ples"]
     )
     lateinit var gradlePluginVersion: String
 
     @Parameters(
         index = "4",
         defaultValue = "",
-        description = ["The version of the Rewrite Maven Plugin to display in relevant samples"]
+        description = ["The version of the Rewrite Maven Plugin to display in relevant samuel ples"]
     )
     lateinit var mavenPluginVersion: String
 

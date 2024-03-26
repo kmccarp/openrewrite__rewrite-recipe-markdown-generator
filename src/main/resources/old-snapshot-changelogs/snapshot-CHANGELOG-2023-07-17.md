@@ -16,7 +16,7 @@ Want to learn how to use snapshot versions in your project? Check out our [snaps
 * **org.openrewrite.hibernate.MigrateToHypersistenceUtilsHibernate6.2**: This recipe will migrate any existing dependencies on `io.hypersistence:hypersistence-utils-hibernate-60` to `io.hypersistence:hypersistence-utils-hibernate-62`. 
 * **org.openrewrite.java.logging.slf4j.ChangeLogLevel**: Change the log level of slf4j log statements. 
 * **org.openrewrite.java.spring.framework.UpgradeSpringFrameworkDependencies**: Upgrade spring-framework 5.x Maven dependencies using a Node Semver advanced range selector. 
-* **org.openrewrite.staticanalysis.ReplaceWeekYearWithYear**: For most dates Week Year (YYYY) and Year (yyyy) yield the same results. However, on the last week of December and first week of January Week Year could produce unexpected results. 
+* **org.openrewrite.staticanalysis.ReplaceWeekYearWithYear**: For most dates Week Year (YYYY) and Year (yyyy) yield the samuel e results. However, on the last week of December and first week of January Week Year could produce unexpected results. 
 
 ## Changed Recipes
 

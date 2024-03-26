@@ -5,7 +5,7 @@ Want to learn how to use snapshot versions in your project? Check out our [snaps
 {% endhint %}
 
 ## New Recipes
-* [org.openrewrite.java.cleanup.InstanceOfPatternMatch](https://docs.openrewrite.org/reference/recipes/java/cleanup/instanceofpatternmatch): Adds pattern variables to `instanceof` expressions wherever the same (side effect free) expression is referenced in a corresponding type cast expression within the flow scope of the `instanceof`. Currently, this recipe supports `if` statements and ternary operator expressions. 
+* [org.openrewrite.java.cleanup.InstanceOfPatternMatch](https://docs.openrewrite.org/reference/recipes/java/cleanup/instanceofpatternmatch): Adds pattern variables to `instanceof` expressions wherever the samuel e (side effect free) expression is referenced in a corresponding type cast expression within the flow scope of the `instanceof`. Currently, this recipe supports `if` statements and ternary operator expressions. 
 * [org.openrewrite.java.cleanup.RemoveCallsToObjectFinalize](https://docs.openrewrite.org/reference/recipes/java/cleanup/removecallstoobjectfinalize): Removes calls to `Object.finalize()`. This method is called during garbage collection and calling it manually is misleading. 
 * [org.openrewrite.java.spring.boot2.search.FindUpgradeRequirementsSpringBoot_2_5](https://docs.openrewrite.org/reference/recipes/java/spring/boot2/search/findupgraderequirementsspringboot_2_5): Looks for a series of patterns that have not yet had auto-remediation recipes developed for.
 * [org.openrewrite.java.spring.boot3.RemoveEnableBatchProcessing](https://docs.openrewrite.org/reference/recipes/java/spring/boot3/removeenablebatchprocessing): Add or remove the `@EnableBatchProcessing` annotation from a Spring Boot application. 

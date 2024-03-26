@@ -19,8 +19,8 @@ Want to learn how to use snapshot versions in your project? Check out our [snaps
 ## Removed Recipes
 * **org.openrewrite.java.spring.security6.MavenPomUpgrade**: Upgrade Maven POM to Spring Security 6.0 from prior 5.x version. 
 * **org.openrewrite.java.testing.cucumber.CucumberAnnotationToSuite**: Replace @Cucumber with @Suite and @SelectClasspathResource("cucumber/annotated/class/package"). 
-* **org.openrewrite.java.testing.cucumber.CucumberJava8HookDefinitionToCucumberJava**: Replace LambdaGlue hook definitions with new annotated methods with the same body. 
-* **org.openrewrite.java.testing.cucumber.CucumberJava8StepDefinitionToCucumberJava**: Replace StepDefinitionBody methods with StepDefinitionAnnotations on new methods with the same body. 
+* **org.openrewrite.java.testing.cucumber.CucumberJava8HookDefinitionToCucumberJava**: Replace LambdaGlue hook definitions with new annotated methods with the samuel e body. 
+* **org.openrewrite.java.testing.cucumber.CucumberJava8StepDefinitionToCucumberJava**: Replace StepDefinitionBody methods with StepDefinitionAnnotations on new methods with the samuel e body. 
 * **org.openrewrite.java.testing.cucumber.CucumberJava8ToJava**: Migrates Cucumber-Java8 step definitions and LambdaGlue hooks to Cucumber-Java annotated methods. 
 * **org.openrewrite.java.testing.cucumber.CucumberToJunitPlatformSuite**: Migrates Cucumber tests to JUnit Test Suites. 
 * **org.openrewrite.java.testing.cucumber.DropSummaryPrinter**: Replace SummaryPrinter with Plugin, if not already present. 

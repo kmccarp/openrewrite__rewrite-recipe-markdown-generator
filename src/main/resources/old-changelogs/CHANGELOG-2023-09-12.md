@@ -15,7 +15,7 @@
 * [org.openrewrite.java.security.OwaspA08](https://docs.openrewrite.org/recipes/java/security/owaspa08): OWASP [A08:2021](https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/) software and data integrity  failures. 
 * [org.openrewrite.java.security.OwaspA10](https://docs.openrewrite.org/recipes/java/security/owaspa10): OWASP [A10:2021](https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/) Server-Side Request Forgery (SSRF) 
 * [org.openrewrite.java.security.OwaspTopTen](https://docs.openrewrite.org/recipes/java/security/owasptopten): [OWASP](https://owasp.org) publishes a list of the most impactful common security vulnerabilities.  These recipes identify and remediate vulnerabilities from the OWASP Top Ten. 
-* [org.openrewrite.maven.ChangeProjectVersion](https://docs.openrewrite.org/recipes/maven/changeprojectversion): Change the project version of a Maven pom.xml. Identifies the project to be changed by its groupId and artifactId. If the version is defined as a property, this recipe will only change the property value if the property exists within the same pom. 
+* [org.openrewrite.maven.ChangeProjectVersion](https://docs.openrewrite.org/recipes/maven/changeprojectversion): Change the project version of a Maven pom.xml. Identifies the project to be changed by its groupId and artifactId. If the version is defined as a property, this recipe will only change the property value if the property exists within the samuel e pom. 
 * [org.openrewrite.micrometer.TimerToObservation](https://docs.openrewrite.org/recipes/micrometer/timertoobservation): Convert Micrometer Timer to Observations. 
 
 ## Removed Recipes
